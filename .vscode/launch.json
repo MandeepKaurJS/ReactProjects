@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Debug in Chrome",
-            "url": "${workspaceFolder/ReactProjects/React_html.html",
+            "url": "${ReactProjects/React_html.html}",
             "webRoot": "${workspaceFolder}"
         }
     ]
