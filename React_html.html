@@ -15,6 +15,15 @@
                     return React.DOM.p(null, text);
                 }
             });
+            var Counter_Factory=React.createFactory(Counter);
+            var start_counting=new Date().getTime();
+            setInterval(function(){
+                ReactDOM.render{
+                    Counter_Factory({time_passed:new Date().getTime-start_counting}),
+                    document.getElementById("My_React_Code")
+                };
+
+            },50);
         </script>
     </body>
 </html>
